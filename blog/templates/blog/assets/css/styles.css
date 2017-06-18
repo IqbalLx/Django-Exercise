@@ -1,0 +1,244 @@
+#jarak.row img{
+  border:3px dotted rgb(41,98,148);
+}
+
+#bagi4-cuy img{
+  border:3px dotted rgb(42,200,134);
+  background-color:rgb(235,238,236);
+  margin:0 auto;
+}
+
+#bagi4-cuy p{
+  text-align:justify;
+  padding:5px;
+  font-size:15pt;
+}
+
+div#bagi4-cuy h1{
+  text-align:center;
+  color:rgb(42,200,134);
+  padding-bottom:30px;
+  font-size:38pt;
+}
+
+@media (max-width:991px) {
+  div#bagi4-cuy h1{
+    font-size:32pt;
+    padding:1px;
+    margin-top:-16px;
+  }
+}
+
+@media (max-width:767px) {
+  div#bagi4-cuy h1{
+    font-size:25pt;
+    margin-top:0;
+  }
+}
+
+.row.bagi4{
+  padding-top:20px;
+}
+
+@media (max-width:767px) {
+  a#logooh{
+    position:relative;
+    left:-50px;
+    top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  span#tas{
+    display:inline-block;
+  }
+}
+
+@media (max-width:767px) {
+  img #logo-kaos{
+    position:absolute;
+    margin-right:30px;
+  }
+}
+
+.jumbotron h1{
+  color:rgb(225,49,80);
+  font-weight:bold;
+  font-size:58pt;
+}
+
+@media (min-width:700px) {
+  div#back-color{
+    padding-top:30px;
+  }
+}
+
+div#jarak.row{
+  padding-bottom:30px;
+}
+
+h1#why{
+  background-color:rgb(214,28,73);
+  text-align:center;
+  padding:30px;
+  color:whitesmoke;
+}
+
+img.img-rounded.img-responsive.gambar{
+  margin:0 auto;
+}
+
+button.btn.btn-primary{
+  box-shadow:0 0 10px blue;
+}
+
+@media (max-width:991px) {
+  .pict{
+    padding-bottom:40px;
+  }
+}
+
+div#gambarnya{
+  text-align:center;
+}
+
+div.col-sm-4{
+  text-align:center;
+}
+
+#galeri{
+  background-color:rgb(41,98,148);
+  color:whitesmoke;
+}
+
+#galeri h1{
+  padding:25px;
+  font-weight:bold;
+  color:white;
+}
+
+@media (max-width:991px) {
+  .teks p{
+    padding-bottom:35px;
+  }
+}
+
+.navbar-brand{
+  margin-top:0px;
+}
+
+img#logo-kaos{
+  width:50px;
+  height:50px;
+  display:inline-block;
+  margin-top:-15px;
+  margin-right:15px;
+}
+
+img.img-thumbnail.img-responsive.gambar{
+  background-color:#ebeeec;
+}
+
+div#back-color{
+  background-color:#ebeeec;
+}
+
+#come h1{
+  padding-bottom:35px;
+  font-size:32pt;
+}
+
+div#wel.container.welcome{
+  background-color:#1fc15f;
+  color:white;
+  padding:20px;
+  border-radius:20px;
+  box-shadow:0 0 15px black;
+}
+
+@media (max-width:991px) {
+  div#bg{
+    padding:0px;
+    margin-top:-45px;
+    background-image:url(../../assets/img/lah.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+}
+
+@media (max-width:991px) {
+  div.jumbotron{
+    padding-top:10px;
+    margin:45px auto;
+    background-color:rgba(255,255,255,0.5);
+    border-radius:10px;
+    text-align:center;
+    padding-top:15px;
+  }
+}
+
+img.img-thumbnail.img-responsive{
+  border:none;
+}
+
+div.welcome.container{
+  text-align:center;
+  font-family:Arial, "sans-serif";
+  font-weight:bold;
+}
+
+a:hover{
+  cursor:pointer;
+}
+
+@media (min-width:700px) {
+  div#bg{
+    background:url(../../assets/img/lah.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:500px;
+    padding:30px;
+  }
+}
+
+@media (min-width:991px) {
+  div.jumbotron{
+    text-align:center;
+    padding:70px;
+    margin:40px;
+    border-radius:40px;
+    height:400px;
+    background-color:rgba(255,255,255,0.5);
+  }
+}
+
+div#atas.container-fluid{
+  margin-top:100px;
+}
+
+p#desc{
+  color:rgb(181,22,22);
+}
+
+h1#judul{
+  border-bottom:3px solid rgb(78,214,116);
+  padding-bottom:15px;
+}
+
+@media (max-width:991px) {
+  a#logooh.navbar-brand.navbar-link{
+    position:relative;
+    top:-3px;
+    left:3px;
+  }
+}
+
+@media (max-width:367px) {
+  a#logooh.navbar-brand.navbar-link{
+    position:relative;
+    top:34px;
+    left:-30px;
+  }
+}
+
