@@ -1,3 +1,5 @@
+{%load staticfiles%}
+
 <!DOCTYPE html>
 <html>
 
@@ -5,12 +7,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan Bstudio</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="{% static 'css/fonts/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css/Pretty-Header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css/Pretty-Footer.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css">
 </head>
 
@@ -18,7 +20,7 @@
     <nav class="navbar navbar-default navbar-fixed-top custom-header">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand navbar-link" href="#" id="logooh"><img class="img-responsive" src="assets/img/otak logo kaos.png" width="100" height="100" id="logo-kaos">Otak <span id="tas"> Keren</span> </a>
+                <a class="navbar-brand navbar-link" href="#" id="logooh"><img class="img-responsive" src="{% static 'css/img/otak logo kaos.png' %}" width="100" height="100" id="logo-kaos">Otak <span id="tas"> Keren</span> </a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -51,15 +53,15 @@
             <div class="container visible-sm-block visible-md-block visible-lg-block visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline welcome" id="come">
                 <h1><strong>ABOUT OTAK KEREN SHOP</strong></h1>
                 <div class="row">
-                    <div class="col-md-4 teks"><img class="img-rounded img-responsive gambar" src="assets/img/placeholder.png" width="100" height="100">
+                    <div class="col-md-4 teks"><img class="img-rounded img-responsive gambar" src="{% static 'css/img/placeholder.png' %}" width="100" height="100">
                         <h2> LOKASI</h2>
                         <p>Lokasi kami berada di Daerah Istimewa Yogyakarta. Setiap pengiriman akan menggunakan JNE/WAHANA/POS INDONESIA. Khusus DIY gratis Ongkir</p>
                     </div>
-                    <div class="col-md-4 teks"><img class="img-rounded img-responsive gambar" src="assets/img/dollar.png" width="100" height="100">
+                    <div class="col-md-4 teks"><img class="img-rounded img-responsive gambar" src="{% static 'css/img/dollar.png' %}" width="100" height="100">
                         <h2>MURAH </h2>
                         <p>Kaos kami menggunakan bahan berkualitas tetapi tetap dengan harga yang terjangkau. Dimulai dari 75k rupiah saja untuk semua varian kaos yang kami sediakan</p>
                     </div>
-                    <div class="col-md-4 teks"><img class="img-rounded img-responsive gambar" src="assets/img/24-hours.png" width="100" height="100">
+                    <div class="col-md-4 teks"><img class="img-rounded img-responsive gambar" src="{% static 'css/img/24-hours.png' %}" width="100" height="100">
                         <h2>PENGIRIMAN </h2>
                         <p>Pengiriman barang kami lakukan 24 jam setelah barang dipesan. Pengiriman juga kami kerjakan hanya pada waktu hari kerja. Dari Senin sampai Jumat</p>
                     </div>
@@ -70,19 +72,19 @@
             <div id="gambarnya">
                 <div class="row" id="jarak">
                     <div class="col-md-4 pict">
-                        <a href="assets/img/design with code - hijau tosca.png" target="_blank" data-lightbox="produk"><img class="img-thumbnail img-responsive" src="assets/img/design with code - hijau tosca.png" width="315" data-lightbox="produk"></a>
+                        <a href="{% static 'css/img/design with code - hijau tosca.png' %}" target="_blank" data-lightbox="produk"><img class="img-thumbnail img-responsive" src="{% static 'css/img/design with code - hijau tosca.png' %}" width="315" data-lightbox="produk"></a>
                         <h2>Kaos Oblong Sablon</h2>
                         <p>Kaos Oblong kami menggunakan bahan atun combed 30s yang nyaman saat dipakai dan menyerap keringat, sehingga kaos sablon kami cocok untuk aktivitas didalam maupun diluar ruangan. </p>
                         <button class="btn btn-primary" type="button">Lainnya </button>
                     </div>
                     <div class="col-md-4 pict">
-                        <a href="assets/img/rag debian.png" target="_blank" data-lightbox="produk"><img class="img-thumbnail img-responsive" src="assets/img/rag debian.png" width="315" height="300" data-lightbox="produk"></a>
+                        <a href="{% static 'css/img/rag debian.png' %}" target="_blank" data-lightbox="produk"><img class="img-thumbnail img-responsive" src="{% static 'css/img/rag debian.png" width="315" height="300" data-lightbox="produk"></a>
                         <h2>Kaos Raglan Sablon</h2>
                         <p>Kaos Raglan juga menggunakan katun combed 30s yang nyaman dan menyerap keringat, bedanya design lengan raglan adalah ¾ lengan. </p>
                         <button class="btn btn-primary" type="button">Lainnya </button>
                     </div>
                     <div class="col-md-4 pict">
-                        <a href="assets/img/kali.png" target="_blank" data-lightbox="produk"><img class="img-thumbnail" src="assets/img/kali.png" width="315" height="300" data-lightbox="produk"></a>
+                        <a href="{% static 'css/img/kali linux.png' %}" target="_blank" data-lightbox="produk"><img class="img-thumbnail" src="{% static 'css/img/kali.png" width="315" height="300" data-lightbox="produk"></a>
                         <h2>Kaos Polo Sablon</h2>
                         <p>Kaos Polo kami memiliki bahan lacoste CVC dengan tekstur seperti kulit jeruk dengan bordir menggunakan komputer. Kaos ini memberikan kesan macho dan trendi untuk kamu yang memakai kaos ini. </p>
                         <button class="btn btn-primary" type="button">Lainnya </button>
@@ -94,7 +96,7 @@
                 <div id="bagi4-cuy">
                     <div class="row bagi4">
                         <div class="col-md-6">
-                            <a href="assets/img/model bs 1.png" target="_blank" data-lightbox="model"><img class="img-thumbnail img-responsive" src="assets/img/model bs 1.png" width="700" height="700"></a>
+                            <a href="{% static 'css/img/model bs 1.png' %}" target="_blank" data-lightbox="model"><img class="img-thumbnail img-responsive" src="{% static 'css/img/model bs 1.png' %}" width="700" height="700"></a>
                         </div>
                         <div class="col-md-6">
                             <h1><strong>Bahan Sablon Berkualitas Tinggi</strong></h1>
@@ -107,12 +109,12 @@
                             <p><strong>Kaos kami tersedia dalam berbagai macam varian design dan warna serta tersedia untuk semua ukuran badan. Ini menjadikan kaos kami cocok untuk sobat pakai bik laki - laki ataupun perempuan.</strong></p>
                         </div>
                         <div class="col-md-6">
-                            <a href="assets/img/model bs 2.png" target="_blank" data-lightbox="model"><img class="img-thumbnail img-responsive" src="assets/img/model bs 2.png" width="650" height="500"></a>
+                            <a href="{% static 'css/img/model bs 2.png' %}" target="_blank" data-lightbox="model"><img class="img-thumbnail img-responsive" src="{% static 'css/img/model bs 2.png' %}" width="650" height="500"></a>
                         </div>
                     </div>
                     <div class="row bagi4">
                         <div class="col-md-6">
-                            <a href="assets/img/model bs 3.png" target="_blank" data-lightbox="model"><img class="img-thumbnail img-responsive" src="assets/img/model bs 3.png" width="600" height="500"></a>
+                            <a href="{% static 'css/img/model bs 3.png' %}" target="_blank" data-lightbox="model"><img class="img-thumbnail img-responsive" src="{% static 'css/img/model bs 3.png' %}" width="600" height="500"></a>
                         </div>
                         <div class="col-md-6">
                             <h1><strong>Nyaman Dipakai Keluar Rumah</strong></h1>
@@ -125,7 +127,7 @@
                             <p><strong>Sebagian besar kaos sablon yang tersedia pada toko kami menggunakan design yang tidak asing lagi bagi para penggiat IT. Oleh karena itu kaos kami sangat cocok jika dipakai saat mendatangi gathering Programer </strong></p>
                         </div>
                         <div class="col-md-6">
-                            <a href="assets/img/model bs 4.png" data-lightbox="model"><img class="img-thumbnail img-responsive" src="assets/img/model bs 4.png" width="700" height="600"></a>
+                            <a href="{% static 'css/img/model bs 4.png' %}" data-lightbox="model"><img class="img-thumbnail img-responsive" src="{% static 'css/img/model bs 4.png' %}" width="700" height="600"></a>
                         </div>
                     </div>
                 </div>
@@ -135,7 +137,7 @@
     <footer>
         <div class="row">
             <div class="col-md-4 col-sm-6 footer-navigation">
-                <h3><a href="#"><img class="img-responsive" src="assets/img/otak logo kaos.png" width="100" height="100" id="logo-kaos">Otak <span>Keren </span></a></h3>
+                <h3><a href="#"><img class="img-responsive" src="{% static 'css/img/otak logo kaos.png' %}" width="100" height="100" id="logo-kaos">Otak <span>Keren </span></a></h3>
                 <p class="links"> <a href="#">Home</a><strong> · </strong><a href="#">Sitemap </a><strong> · </strong><a href="#">Disclaimer </a><strong> · </strong><a>About</a> <strong>· </strong><a href="#">Contact</a> <strong>·</strong> <a href="#">Product </a></p>
                 <p
                 class="company-name">Otak Keren © 2017 </p>
@@ -160,8 +162,8 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{% static 'css/js/jquery.min.js' %}"></script>
+    <script src="{% static 'css/bootstrap/js/bootstrap.min.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox-plus-jquery.min.js"></script>
 </body>
 

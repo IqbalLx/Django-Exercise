@@ -160,7 +160,7 @@ div#wel.container.welcome{
   div#bg{
     padding:0px;
     margin-top:-45px;
-    background-image:url(../../assets/img/lah.png);
+    background-image:url(static/css/img/lah gitu.png);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -194,7 +194,7 @@ a:hover{
 
 @media (min-width:700px) {
   div#bg{
-    background:url(../../assets/img/lah.png);
+    background:url(static/css/img/lah gitu.png);
     background-size:cover;
     background-repeat:no-repeat;
     height:500px;
