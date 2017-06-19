@@ -157,17 +157,6 @@ div#wel.container.welcome{
 }
 
 @media (max-width:991px) {
-  div#bg{
-    padding:0px;
-    margin-top:-45px;
-    background-image:url(static/css/img/lah gitu.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-  }
-}
-
-@media (max-width:991px) {
   div.jumbotron{
     padding-top:10px;
     margin:45px auto;
@@ -190,16 +179,6 @@ div.welcome.container{
 
 a:hover{
   cursor:pointer;
-}
-
-@media (min-width:700px) {
-  div#bg{
-    background:url(static/css/img/lah gitu.png);
-    background-size:cover;
-    background-repeat:no-repeat;
-    height:500px;
-    padding:30px;
-  }
 }
 
 @media (min-width:991px) {

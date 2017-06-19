@@ -14,6 +14,29 @@
     <link rel="stylesheet" href="{% static 'css/css/Pretty-Header.css' %}">
     <link rel="stylesheet" href="{% static 'css/css/Pretty-Footer.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css">
+    <style>
+        @media (max-width:991px) {
+          div#bg{
+            padding:0px;
+            margin-top:-45px;
+            background-image: url("{% static 'css/img/lah gitu.png' %}");
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+          }
+        }
+
+        @media (min-width:700px) {
+          div#bg{
+            background:url("{% static 'css/img/lah gitu.png' %}");
+            background-size:cover;
+            background-repeat:no-repeat;
+            height:500px;
+            padding:30px;
+          }
+        }
+
+    </style>
 </head>
 
 <body>
@@ -78,13 +101,13 @@
                         <button class="btn btn-primary" type="button">Lainnya </button>
                     </div>
                     <div class="col-md-4 pict">
-                        <a href="{% static 'css/img/rag debian.png' %}" target="_blank" data-lightbox="produk"><img class="img-thumbnail img-responsive" src="{% static 'css/img/rag debian.png" width="315" height="300" data-lightbox="produk"></a>
+                        <a href="{% static 'css/img/rag debian.png' %}" target="_blank" data-lightbox="produk"><img class="img-thumbnail img-responsive" src="{% static 'css/img/rag debian.png' %}" width="315" height="300" data-lightbox="produk"></a>
                         <h2>Kaos Raglan Sablon</h2>
                         <p>Kaos Raglan juga menggunakan katun combed 30s yang nyaman dan menyerap keringat, bedanya design lengan raglan adalah ¾ lengan. </p>
                         <button class="btn btn-primary" type="button">Lainnya </button>
                     </div>
                     <div class="col-md-4 pict">
-                        <a href="{% static 'css/img/kali linux.png' %}" target="_blank" data-lightbox="produk"><img class="img-thumbnail" src="{% static 'css/img/kali.png" width="315" height="300" data-lightbox="produk"></a>
+                        <a href="{% static 'css/img/kali linux.png' %}" target="_blank" data-lightbox="produk"><img class="img-thumbnail" src="{% static 'css/img/kali linux.png' %}" width="315" height="300" data-lightbox="produk"></a>
                         <h2>Kaos Polo Sablon</h2>
                         <p>Kaos Polo kami memiliki bahan lacoste CVC dengan tekstur seperti kulit jeruk dengan bordir menggunakan komputer. Kaos ini memberikan kesan macho dan trendi untuk kamu yang memakai kaos ini. </p>
                         <button class="btn btn-primary" type="button">Lainnya </button>
